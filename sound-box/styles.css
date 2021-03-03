@@ -9,10 +9,33 @@
 }
 
 body{
-    /* background-color: #f6f7fb; */
     font-family: 'Akaya Telivigala', cursive;
-    background-color: #333;
+    background-color: rgb(161, 100, 233);
     color: #222;
-    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
     margin: 0;
+}
+
+.btn{
+    background-color: rebeccapurple;
+    border-radius: 5px;
+    border: none;
+    margin: 1rem;
+    padding: 1.5rem 3rem;
+    font-size: 1.2rem;
+    font-size: inherit;
+    color: white;
+}
+
+.btn:hover{
+    opacity:0.9
+}
+
+.btn:focus {
+    outline: none
 }
