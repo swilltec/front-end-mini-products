@@ -10,8 +10,11 @@
 
 body{
     font-family: 'Akaya Telivigala', cursive;
-    background-color: #333;
+    background-color: #fff;
     color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
     height: 100vh;
     margin: 0;
