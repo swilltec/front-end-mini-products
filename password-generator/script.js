@@ -20,12 +20,13 @@ clipboardEl.addEventListener('click', ()=>{
     const password = resultEl.innerText
 
     if(!password){ return }
+    //OLD WAY
     // textarea.value = password
     // document.body.appendChild(textarea)
     // textarea.select()
     // textarea.remove()
-    navigator.clipboard.writeText(password)
     // document.execCommand('copy', false, password)
+    navigator.clipboard.writeText(password)
     alert('password was copied to clipboard')
 })
 
